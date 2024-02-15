@@ -7,6 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Navbar */
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -38,7 +39,7 @@
     padding-top: 10px;
 }
 
-
+/* Hero Section */
 .meeting{
     display: flex;
     width: 100%;
@@ -84,6 +85,7 @@
     margin-left: 11rem
     }
 
+/* Partners logos section */
     #partners{
         margin: 5rem 0;
         }
@@ -94,6 +96,7 @@
         gap: 3rem;
     }
 
+/* Store Section */
     .container {
         position: relative;
         display: flex;
@@ -192,6 +195,7 @@
         opacity: 0.8;
     }
 
+/* About */
     #about{
         padding: 40px;
         text-align: center;
@@ -218,6 +222,7 @@
         font-family: cursive;
     }
 
+/* Footer */
     #footer ul{
         width: 100%;
         background-color: rgb(40, 40, 190);
