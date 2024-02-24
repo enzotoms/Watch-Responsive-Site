@@ -7,13 +7,12 @@
     font-family: 'Poppins', sans-serif;
 }
 
-/* Navbar */
 #navbar {
     display: flex;
     justify-content: space-between;
     color: #fff;
     padding: 10px;
-    background-color: rgb(40, 40, 190);
+    background-color: rgb(47, 47, 51);
     max-width: 100%;
 }
 
@@ -39,7 +38,7 @@
     padding-top: 10px;
 }
 
-/* Hero Section */
+
 .meeting{
     display: flex;
     width: 100%;
@@ -85,7 +84,6 @@
     margin-left: 11rem
     }
 
-/* Partners logos section */
     #partners{
         margin: 5rem 0;
         }
@@ -96,7 +94,6 @@
         gap: 3rem;
     }
 
-/* Store Section */
     .container {
         position: relative;
         display: flex;
@@ -106,7 +103,8 @@
         gap: 100px 50px;
         padding: 50px 50px;
         margin-top: 3rem;
-        background-color: #333;
+        border-radius: 20px;
+        background-color: #BFCBC2;
     }
     
     .container .card {
@@ -195,7 +193,6 @@
         opacity: 0.8;
     }
 
-/* About */
     #about{
         padding: 40px;
         text-align: center;
@@ -222,15 +219,18 @@
         font-family: cursive;
     }
 
-/* Footer */
+#footer{
+    /* margin-: 3rem; */
+}
+
     #footer ul{
         width: 100%;
-        background-color: rgb(40, 40, 190);
+        background-color: rgb(47, 47, 51);
         color: #fff;
         text-align: center;
         justify-content: center;
         display: flex;
-        padding: 30px;
+        padding: 10px;
         margin: 0;
     }
     
@@ -240,6 +240,25 @@
         margin: 2px;
         list-style: none;
     }
+
+
+@media (max-width: 400px){
+    .meeting .content h1{ 
+        font-size: 3rem;
+        text-align: center;
+     justify-content: center;
+        color: #fff;
+        margin-top: 0.5px;
+        padding-bottom: 30px;
+        margin-left: 5px;
+    }
+
+    .meeting img{
+        background-position: center;
+        justify-content: center;
+        align-items: center;
+    }
+}
 
     @media (max-width: 600px) {
 
@@ -254,36 +273,43 @@
         }
 
         #navbar a{
-            text-align: center;
-            padding-left: 80px;
+            /* text-align: center; */
+           font-size: 11px;
+            padding-left: 0rem;
+            padding-right: 0rem;
+            margin-left: 35px;
         }
         .meeting .content{
            
             margin-top: 0;
             width: 100%;
-            
             flex-direction: column;
         }
 
         .meeting{
             background-image: url(images/pexels-pixabay-277319.jpg);
             background-position: center;
-            background-size: 150%;
+            background-size: 210%;
             background-repeat: no-repeat;
+            display: flex;
+            flex-direction: column;
+            height: 60vh;
+            width: 100%;
+
         }
         .meeting img{
-            background-position: center;
+           display: none !important;
         }
 
         .meeting .content h1{
             font-size: 3rem;
-           text-align: center;
+            text-align: center; *
             justify-content: center;
             color: #fff;
             margin-top: 0.5px;
             /* padding-bottom: 30px; */
-            margin-left: 110px;
-            padding-right: ;
+          
+            margin-right: 40px;
         }
 
         .meeting .content p{
@@ -291,8 +317,8 @@
         }
         
         .meeting button{
-        margin-left: 170px;
-        margin-top: 250px;
+        margin-left: 5rem;
+        margin-top: 20px;
         }
 
         .container .card {
@@ -305,9 +331,6 @@
             border-radius: 10px;
         }
     
-        .container .card .content p {
-            display: ;
-        }
     
         .container .card .content a {
             font-size: 0.9rem;
